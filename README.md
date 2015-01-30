@@ -5,6 +5,11 @@ Not sure what is the best approach to start. I saw that yeoman has an node-webki
 
 [This](https://github.com/voigt/private-timeline/wiki/How-the-App-was-bootstrapped) is how the installation process worked (for me). I also selected all available OS environments in order to give the best support for other OSs.
 
+#What you need
+
+- `npm`
+- `sudo npm install -g grunt-cli`
+- `npm install grunt`
 
 
 How to compile.
@@ -100,4 +105,17 @@ The node-webkit-generator creates the following folders.
 | resources  | This folder stores files necessary to build different distributions from your application e.g. the node-webkit binaries.  |
 
 
+#Known Issues
+
+##Linux 64
+
+*libudev.so.0*  
+App throws following error message after running `grunt dist-linux`:
+
+```
+$ ./node-webkit node-webkit 
+./node-webkit: error while loading shared libraries: libudev.so.0: cannot open shared object file: No such file or directory
+```
+
+[Stackoverflow](http://askubuntu.com/questions/288821/how-do-i-resolve-a-cannot-open-shared-object-file-libudev-so-0-error) has an answer to this.
 
