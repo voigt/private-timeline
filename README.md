@@ -117,5 +117,4 @@ $ ./node-webkit node-webkit
 ./node-webkit: error while loading shared libraries: libudev.so.0: cannot open shared object file: No such file or directory
 ```
 
-[Stackoverflow](http://askubuntu.com/questions/288821/how-do-i-resolve-a-cannot-open-shared-object-file-libudev-so-0-error) has an answer to this.
-
+There is [this](http://exponential.io/blog/install-node-webkit-on-ubuntu-linux/) guide and an issue on [Stackoverflow](http://askubuntu.com/questions/288821/how-do-i-resolve-a-cannot-open-shared-object-file-libudev-so-0-error) which have answers to this.
