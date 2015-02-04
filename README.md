@@ -120,6 +120,7 @@ $ ./node-webkit node-webkit
 There is [this](http://exponential.io/blog/install-node-webkit-on-ubuntu-linux/) guide and an issue on [Stackoverflow](http://askubuntu.com/questions/288821/how-do-i-resolve-a-cannot-open-shared-object-file-libudev-so-0-error) which have answers to this.
 
 On Linux Mint you may get the message "/usr/bin/env: node: File or directory not found". You can have a look at /usr/bin and if there is a nodejs file but no node file you can fix it by creating a symbolic link.
+
 ```
-sudo ln -s /usr/bin/nodejs /usr/bin/node
+$ sudo ln -s /usr/bin/nodejs /usr/bin/node
 ´´´
